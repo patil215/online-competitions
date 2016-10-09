@@ -1,0 +1,496 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\froman\fcharset0 Times New Roman;}{\f1\fswiss\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.15.1516;}\viewkind4\uc1\pard\sb100\sa100\f0\fs24\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Step by Step: Setting Up Microsoft Windows XP\par
+\pard\sb100\sa100\kerning0\fs24 Tip:\b0  If possible, print this document before starting Setup. Some steps might require you to shut down the computer, and it will be helpful to have a printed copy of this information.\par
+This document will help you to install Microsoft Windows XP Professional or Windows XP Home Edition. This document also provides answers to other setup-related questions.\par
+Click a link to go directly to that section:\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069040""}}{\fldrslt{\cf1\ul Prepare for Setup}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069041""}}{\fldrslt{\cf1\ul Upgrade to Windows XP}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069042""}}{\fldrslt{\cf1\ul Perform a new installation of Windows XP}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069043""}}{\fldrslt{\cf1\ul Transfer files and settings from another computer}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069044""}}{\fldrslt{\cf1\ul Partition and format a hard drive}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069045""}}{\fldrslt{\cf1\ul Perform other Setup-related tasks}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069046""}}{\fldrslt{\cf1\ul Troubleshoot Setup}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069047""}}{\fldrslt{\cf1\ul Create boot disks}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069048""}}{\fldrslt{\cf1\ul Configure a computer to boot from CD}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069049""}}{\fldrslt{\cf1\ul Set up a multiboot system}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069050""}}{\fldrslt{\cf1\ul Repair or recover a system}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069051""}}{\fldrslt{\cf1\ul Find a Microsoft Knowledge Base article}}}\cf0\ulnone\f0\fs24\par
+{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069052""}}{\fldrslt{\cf1\ul Additional resources}}}\cf0\ulnone\f0\fs24\par
+\pard\keepn\sb100\sa100\b\fs36 Installation overview\par
+\pard\sb100\sa100\b0\fs24 This release of Windows XP includes Service Pack 2 (SP2) for Windows XP. If you uninstall this release of Windows XP, SP2 is automatically uninstalled too. Your computer will be running the operating system that it was running before you installed Windows XP, or it will not be running an operating system. You cannot uninstall SP2 only.\par
+Important\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 You can install Windows XP Home Edition with Service Pack 2 or Windows XP Professional with Service Pack 2 on computers that are running the following operating systems: \par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li1440\sb100\sa100 Microsoft Windows 98 \par
+{\pntext\f2\'B7\tab}Windows 98 Second Edition \par
+{\pntext\f2\'B7\tab}Windows NT 4.0 Workstation \par
+{\pntext\f2\'B7\tab}Windows Millennium Edition \par
+{\pntext\f2\'B7\tab}Windows 2000 Professional \par
+{\pntext\f2\'B7\tab}Windows XP Home Edition \par
+{\pntext\f2\'B7\tab}Windows XP Professional \par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 If you want to upgrade Microsoft Windows 95 to Windows XP Home Edition or Windows XP Professional, you must first uninstall Windows 95, and then perform a new installation. \par
+{\pntext\f2\'B7\tab}If you are installing Windows XP on an older computer, it\rquote s a good idea to check with your computer manufacturer to see whether a BIOS upgrade is available before you proceed.\par
+\pard\sb100\sa100\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Prepare for Setup\par
+\pard\sb100\sa100\kerning0\b0\fs24 There are four important steps you should take before you start Setup:\par
+\pard\fi-360\li720\sb100\sa100\tx720{\field{\*\fldinst{HYPERLINK "\\\\l "a""}}{\fldrslt{\cf1\ul Run an upgrade report}}}\cf0\ulnone\f0\fs24  \endash  it only takes a few minutes to check system compatibility. \par
+{\field{\*\fldinst{HYPERLINK "\\\\l "b""}}{\fldrslt{\cf1\ul Disable virus protection software}}}\cf0\ulnone\f0\fs24  \endash  if you do not do this, installation might fail. \par
+{\field{\*\fldinst{HYPERLINK "\\\\l "c""}}{\fldrslt{\cf1\ul Back up your files}}}\cf0\ulnone\f0\fs24  either by using the Backup Wizard that is built into Windows, or by using another backup program. \par
+{\field{\*\fldinst{HYPERLINK "\\\\l "d""}}{\fldrslt{\cf1\ul Decide which type of Setup you want}}}\cf0\ulnone\f0\fs24  \endash  an upgrade or a new installation. \par
+\pard\sb100\sa100 Doing these four steps \i before\i0  starting Setup can save you time in the long run.\par
+\pard\keepn\sb100\sa100\b\fs36 Run an upgrade report\par
+\pard\sb100\sa100\b0\fs24 An upgrade report tells you how your hardware and software will work with Windows XP. The upgrade report is a quick and easy program that you can run using the Windows XP CD. Here's how:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Insert the Windows XP CD into your CD-ROM drive. \par
+When the \b Welcome\b0  menu appears, click \b Check system compatibility\b0 . \par
+Then click \b Check my system automatically\b0 . \par
+\pard\sb100\sa100 You can also find information about your computer's devices (such as printers, scanners, and so on) at the device manufacturer's Web site, in the Windows Catalog, and on the Microsoft Hardware Compatibility List (HCL): \par
+{\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=20496"}}{\fldrslt{\cf1\ul Text version of the HCL (for all operating systems)}}}\cf0\ulnone\f0\fs24\line (https://winqual.microsoft.com/download/default.asp)\par
+{\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=20497"}}{\fldrslt{\cf1\ul Text version of the HCL (for Windows XP only)}}}\cf0\ulnone\f0\fs24\line (https://winqual.microsoft.com/download/display.asp?FileName=hcl/WinXPHCLx86.txt)\par
+{\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=18784"}}{\fldrslt{\cf1\ul The Windows Catalog}}}\cf0\ulnone\f0\fs24\line (http://www.microsoft.com/windows/catalog/)\par
+You can get to all of the above from {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=14123"}}{\fldrslt{\cf1\ul Windows Hardware and Driver Central}}}\cf0\ulnone\f0\fs24  (http://www.microsoft.com/whdc/hcl/default.mspx)\par
+What do you do if something is incompatible with Windows XP? You can upgrade either the hardware or software in question, find a similar but compatible program or device, or you can remove the program or device and stop using it. To upgrade, contact the manufacturer. To find compatible programs and devices, check the {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=18784"}}{\fldrslt{\cf1\ul Windows Catalog}}}\cf0\ulnone\f0\fs24  (http://www.microsoft.com/windows/catalog/). To remove a program, go to Control Panel and open Add or Remove Programs.\par
+\pard\keepn\sb100\sa100\b\fs36 Disable virus protection (antivirus) software\par
+\pard\sb100\sa100\b0\fs24 Virus protection software sometimes interferes with Setup, so make sure that you disable it before you begin installing Windows XP. For instructions about how to do this, refer to the documentation for your virus protection software.\par
+After setting up Windows XP, remember to enable the virus protection program. In some cases you will need an updated version of the software, which you might be able to download from the software manufacturer's Web site.\par
+\pard\keepn\sb100\sa100\b\fs36 Back up your files\par
+\pard\sb100\sa100\b0\fs24 Back up any files that you want to preserve, just in case something goes awry. Depending on how many files you have, you can copy them to a floppy disk, removable drive, or CD, or to a network folder if you have a network. You can copy the files directly or use the Backup Wizard included with most versions of Windows. This wizard is located in the Accessories\\System Tools folder on the \b Start\b0  menu.\par
+\b Note:\b0  You cannot restore a backup in Windows XP that you created by using the Msbackup tool in Windows 95, Windows 98, or Windows Millennium Edition. For more information about this issue, see Microsoft Knowledge Base article 305381, "Cannot Restore Backups That You Create in Windows 95, Windows 98, or Windows Me with the Windows XP NTBackup Tool."\par
+\pard\keepn\sb100\sa100\b\fs36 Decide which type of Setup you want\par
+\pard\sb100\sa100\b0\fs24 There are basically three different types of Setup: an upgrade, a new installation (also known as a \i clean installation\i0  or a \i full installation\i0 ), and a multiboot installation. \b\i Hint:\b0  we highly recommend the first one!\i0\par
+\b Upgrade\b0 . This is the easiest method of installing Windows XP. We recommend you use this method if you are running a previous version of Windows. When you upgrade, you replace the existing operating system with Windows XP, but your data and most user settings should not be affected. (It's always a good idea to back up your files before starting, just in case.)\par
+You can upgrade from Windows 98, Windows 98 Second Edition, Windows Millennium Edition, Windows NT Workstation 4 (Service Pack 6), or Windows 2000 Professional.\par
+\b Note:\b0  Windows 2000 can only be upgraded to Windows XP Professional. See Microsoft Knowledge Base article 292607 for supported upgrade paths. Also see Microsoft Knowledge Base article 316941 for an overview of the Windows XP Setup process.\par
+\b Tip:\b0  To find a Microsoft Knowledge Base article, go to {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=992"}}{\fldrslt{\cf1\ul Microsoft Help and Support}}}\cf0\ulnone\f0\fs24  (http://support.microsoft.com), type the article number in the \b Search the Knowledge Base\b0  box, and press ENTER.\par
+\b New installation\b0 . Also known as a full installation or a clean installation, this method requires a little more work than an upgrade. A new installation can install Windows XP on another drive or partition without disturbing an existing installation, or you can choose to wipe out everything on your hard drive so that you "start from scratch." \b You should definitely back up your files before doing a new installation!\b0  As part of a new installation, you can also partition and format your hard drive. It's best to do this as part of Setup, rather than doing it in advance (as you might have done with previous versions of Windows). We'll get to that.\par
+\b Multiboot installation\b0 . The hardest of all three, this method is a variation of the new installation process that lets you run more than one operating system on your computer. For example, you can have both Windows XP and Windows 98 installed. To switch from one to the other, you restart the computer and choose an operating system from a menu that appears when the computer starts. Sounds cool, but don't attempt this unless you are an advanced computer user.\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Upgrade to Windows XP\par
+\pard\sb100\sa100\kerning0\fs24 Note:\b0  Before installing Windows XP, you should disable your virus protection (antivirus) software, and you might want to run the Windows Memory Diagnostic tool to test your computer's random access memory (RAM). To use the Windows Memory Diagnostic tool, follow the instructions on the {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=19751"}}{\fldrslt{\cf1\ul Windows Memory Diagnostic}}}\cf0\ulnone\f0\fs24  (http://oca.microsoft.com/en/windiag.asp) Web site. Be sure to enable your virus protection software after installing Windows XP.\par
+When you upgrade to Windows XP, you install Windows to the same folder where your current version of Windows is located, updating the earlier version. Here's how:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Start your computer. Also, make sure you have your product key handy. \par
+Insert the Windows XP CD into your computer's CD-ROM or DVD-ROM drive. \par
+On the menu that appears, click \b Install Windows XP\b0 . \par
+On the \b Welcome to Windows Setup\b0  page, click \b Upgrade (recommended)\b0  (if it is not already selected), and then click \b Next\b0 . (You should click \b Next\b0  on each screen from here on.) \par
+On the \b License Agreement\b0  page, read the agreement, and follow the instructions to accept or reject the agreement. \par
+On the \b Your Product Key\b0  page, type the 25-character product key in the appropriate boxes. \par
+On the \b Get Updated Setup Files\b0  page, select the option that you want. \b\i Hint:\b0  It's a really good idea to select \b Yes\b0  and get the updated files, but you can only do this if you're able to connect to the Internet.\i0  \par
+\pard\li720\sb100\sa100\b Note:\b0  Some of the problems addressed in the troubleshooting section of this document are prevented by getting the updated Setup files.\par
+\pard\fi-360\li720\sb100\sa100\tx720 During this phase of Setup, the computer will restart several times, and you'll see screens telling you about new features in Windows XP. This part of Setup takes a while. It's a good time to go have a cup of coffee or take a break. \par
+Finally, the computer restarts one last time and Windows XP starts. \par
+\pard\sb100\sa100 Do not forget to enable your virus protection software after Setup is finished.\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Perform a new installation of Windows XP\par
+\pard\sb100\sa100\kerning0\b0\fs24 If your computer does not have an operating system currently installed or you have decided to install Windows from scratch, you can perform what is known as a new installation (also known as a \i clean installation\i0 , or a \i full installation\i0 ). This process is more complicated and takes longer than an upgrade (about 20 steps as opposed to 9 for an upgrade). To perform an upgrade, refer to the section titled "{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069041""}}{\fldrslt{\cf1\ul Upgrade to Windows XP}}}\cf0\ulnone\f0\fs24 ."\par
+\b Note:\b0  Before installing Windows XP, you should disable you virus protection (antivirus) software, and you might want to run the Windows Memory Diagnostic tool to test your computer's random access memory (RAM). To use the Windows Memory Diagnostic tool, follow the instructions on the {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=19751"}}{\fldrslt{\cf1\ul Windows Memory Diagnostic}}}\cf0\ulnone\f0\fs24  (http://oca.microsoft.com/en/windiag.asp) Web site. Be sure to enable your virus protection software after installing Windows XP.\par
+\b CAUTION:\b0  You can choose to delete everything that currently exists on the hard drive during a new installation, so be sure to back up any data you want to keep before you begin (make sure that the backup data is not stored on the drive you are going to delete).\par
+Here's how to perform a new installation of Windows XP:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Insert the Windows XP CD into the CD-ROM drive. \par
+\pard\li720\sb100\sa100\b Note:\b0  Make sure the computer can boot from a CD. If it can't, then follow the procedures in the section titled "{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069048""}}{\fldrslt{\cf1\ul Configure a computer to boot from CD}}}\cf0\ulnone\f0\fs24 " or see the "How do I install Windows from the command prompt?" section under "{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069045""}}{\fldrslt{\cf1\ul Perform other Setup-related tasks}}}\cf0\ulnone\f0\fs24 ."\par
+\pard\fi-360\li720\sb100\sa100\tx720 Restart the computer. \par
+When the message to \b Press any key to boot from CD\'85\b0  is displayed, quickly press any key (for example, the SPACEBAR). Setup begins. \par
+\pard\li720\sb100\sa100\b Note:\b0  Pay close attention here, because it's very easy to miss this message. If your current operating system starts, you'll know that you missed the opportunity to boot from CD. Restart your computer and try again.\par
+\pard\fi-360\li720\sb100\sa100\tx720 After Setup starts, several messages will flash across the bottom of the screen. These messages are only important under special circumstances, such as installing a particular hardware access layer (HAL), or loading a small computer system interface (SCSI) driver. Most people can ignore them. For more information about this subject, see Microsoft Knowledge Base articles 295116 and 220845. \par
+Next, a screen appears that offers the following three options: \b Set up Windows XP\b0 , \b Repair a Windows XP installation\b0 , or \b Quit Setup\b0 . Press ENTER to select the first option. \par
+The End User License Agreement appears next. Read the license agreement and follow the instructions to accept or reject the agreement. If your Windows CD is an upgrade CD, after accepting the agreement, you will be prompted to insert the CD of your previous operating system to verify that the previous version qualifies for upgrade to Windows XP. \par
+\pard\li720\sb100\sa100\b Important!\b0  If you use a recovery CD from an original equipment manufacturer (also called an OEM), it is possible that the CD will not be accepted. If you delete the partition information or format the drive and the OEM recovery CD is not accepted as valid media, you must use the OEM recovery CD to restore your previous version of Windows. For details about restoring your system using the OEM recovery media, please contact your computer manufacturer.\par
+\pard\fi-360\li720\sb100\sa100\tx720 If a screen appears showing an existing installation of Windows XP, press ESC to continue installing a fresh copy of Windows XP. \par
+At the next screen, you have the option of repartitioning your drive. It's a good idea to repartition if you want to merge several smaller partitions into one large one, or if you want to create several smaller partitions so that you can set up a multiboot configuration. If you want to repartition, follow the instructions to delete existing partitions, if needed, and then select unpartitioned space and press ENTER to proceed. \par
+\pard\li720\sb100\sa100\b CAUTION:\b0  Deleting a partition will remove all data stored on that partition. Before you continue, make sure you have backed up everything you want to keep.\par
+\pard\fi-360\li720\sb100\sa100\tx720 Select the formatting method you would like to use, and then press ENTER. NTFS offers both enhanced formatting capabilities and security technologies. If you need to access drives or DOS files (such as from a DOS-based boot disk) using Windows Millennium Edition or earlier versions of Windows, you might need to select FAT32 instead. Select either format method (quick or slow). \par
+Setup will format the drive, copy initial Setup files, and restart the computer. \par
+\pard\li720\sb100\sa100\b Note:\b0  After the computer restarts, you will again receive the message \b Press any key to boot from CD\b0  but you should ignore it so that you do not interrupt the current installation process.\par
+\pard\fi-360\li720\sb100\sa100\tx720 After another restart, the next part of Setup will begin. \par
+On the \b Regional and Language Options\b0  page, follow the instructions to add language support or change language settings, if desired. \par
+On the \b Personalize Your Software\b0  page, type your name and the name of your company or organization (if applicable). \par
+On the \b Your Product Key\b0  page, type the 25-character product key that came with your copy of Windows XP. \par
+On the \b Computer Name and Administrator Password\b0  page, make up a computer name (if your network administrator gave you a name to use, type that). Then make up a password for the Administrator account on your computer. Type it once, and then confirm it by typing it again. \par
+\pard\li720\sb100\sa100\b Important\b0 : Be sure to remember the Administrator password. You'll need this password when you want to make changes to your system in the future.\par
+\pard\fi-360\li720\sb100\sa100\tx720 On the \b Date and Time Settings\b0  page, make any changes that are necessary. \par
+On the \b Networking Settings\b0  page, if it appears, select \b Typical settings\b0  (unless you plan to manually configure your networking components). \par
+On the \b Workgroup or Computer Domain\b0  page, click \b Next\b0 . If you want to add your computer to a domain, select the second option and fill in the domain name. (If you do this, you will be prompted for a user name and password.) \par
+\pard\li720\sb100\sa100\b Note:\b0  Connecting to a domain is only possible in Windows XP Professional, not in Windows XP Home Edition.\par
+\pard\fi-360\li720\sb100\sa100\tx720 Next, while Setup copies files to your computer and completes a few other tasks, you'll see a series of screens that tell you about new features in Windows XP. \par
+Finally, your computer will restart. Again, ignore the message to press any key. After Setup completes, eject the CD from the CD-ROM drive. \par
+\pard\sb100\sa100 Do not forget to enable your virus protection software after Setup is finished.\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Transfer files and settings from another computer\par
+\pard\sb100\sa100\kerning0\b0\fs24 Did you ever wish that you could easily transfer your files and settings from an old computer to a new one? The Files and Settings Transfer Wizard available in Windows XP can assist you in doing this. This wizard helps take the pain out of upgrading to a new computer.\par
+Here's how to use this wizard:\par
+\b On your new computer:\b0\par
+\pard\fi-360\li720\sb100\sa100\tx720 Click \b Start\b0 , and then click \b Files and Settings Transfer Wizard\b0 . \par
+On the \b Welcome\b0  page of the wizard, click \b Next\b0 . \par
+On the \b Which computer is this?\b0  page, select \b New computer\b0 . \par
+On the \b Do you have a Windows XP CD?\b0  page, select \b I will use the wizard from the Windows XP CD\b0 , unless you don't have a Windows XP CD. If that is the case, you will need to make a Wizard Disk so that you can run the wizard on your old computer. Select the first option and follow the instructions to make the Wizard Disk. \par
+Now go to your old computer (or the computer that you're transferring files and settings \ul from\ulnone ). \par
+\pard\sb100\sa100\b On your old computer:\b0\par
+\pard\fi-360\li720\sb100\sa100\tx720 If you don't have a Windows XP CD, insert the Wizard Disk that you created into the floppy drive. Click \b Start\b0 , click \b Run\b0 , and then click \b Browse\b0 . Browse to your floppy drive and then double-click the \b MigWiz.exe\b0  file. In the \b Run\b0  dialog box, click \b OK\b0 . \par
+\pard\li720\sb100\sa100 If you do have a Windows XP CD, insert it into the CD-ROM drive of the computer you want to copy files and settings \ul from\ulnone  and wait for the startup menu to appear. If the menu does not appear automatically, click \b Start\b0 , click \b Run\b0 , and then click \b Browse\b0 . Browse to your CD-ROM drive and then double-click the \b Setup.exe\b0  file. In the \b Run\b0  dialog box, click \b OK\b0 . Click \b Perform additional tasks\b0 , and then click \b Transfer files and settings\b0 .\par
+\pard\fi-360\li720\sb100\sa100\tx720 On the \b Welcome\b0  page of the Files and Settings Transfer Wizard, click \b Next\b0 . \par
+On the \b Which computer is this?\b0  page, select \b Old computer\b0 . \par
+On the \b Select a transfer method\b0  page, choose a method that will work for both computers. For example, you can place the files and settings on a network drive that both computers have access to, or you can use a removable drive. Whatever method you choose, \ul both\ulnone  computers must be able to use it. \par
+On the \b What do you want to transfer?\b0  page, select one of the three options. Depending on the type of transfer method you choose, some options are better than others here. For instance, if you plan to transfer more than just a few files and settings, choose a method other than floppy disks (since those have the lowest storage capacity). If you decide to change your transfer method, you can always click \b Back\b0 . \par
+\pard\li720\sb100\sa100 On this page, you can also select a check box that lets you choose a custom list of files and settings to be transferred. This option is for advanced users.\par
+\pard\fi-360\li720\sb100\sa100\tx720 At this point, you might see a message telling you to install certain programs on your new computer before continuing. This step is not required, but those programs might not work correctly without doing this. \par
+The wizard now collects the files and settings you requested and prepares to transfer them to the new computer. Insert a disk or removable drive when prompted, if you are using one of those methods. \par
+On the \b Completing the Collection Phase\b0  page, click \b Finish\b0 . Then go to your new computer, taking along any disk or CD you have used. \par
+\pard\sb100\sa100\b On your new computer:\b0\par
+\pard\fi-360\li720\sb100\sa100\tx720 Click \b Start\b0 , and then click \b Files and Settings Transfer Wizard\b0 . \par
+On the \b Welcome\b0  page, click \b Next\b0 . \par
+On the \b Which computer is this?\b0  page, select \b New computer\b0 . \par
+If you placed your files and settings on a disk or CD, insert it now. On the \b Where are the files and settings?\b0  page, tell the wizard where to find the files and settings. The wizard transfers the files and settings to the new computer. \par
+On the \b Completing the Files and Settings Transfer Wizard\b0  page, read any messages about the status of your transfer, and then click \b Finish\b0 . \par
+You might see a message telling you that you need to log off before the new settings will appear on your new computer. You can just log off and log back on. There is no need to restart the computer. \par
+\pard\sb100\sa100 That's it! The transferred files and settings should now be on your new computer.\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Partition and format a hard drive\par
+\pard\sb100\sa100\kerning0\b0\fs24 If there are no partitions on your hard drive, you will need to create a partition and format it. Alternatively, it's a good idea to repartition your hard drive if you want to merge several smaller partitions into one large one, or if you want to create several smaller partitions so that you can set up a multiboot configuration.\par
+If you want to partition or format your hard drive, we recommend that you use the disk partitioning and formatting tools that are built into Windows XP Setup. These tools allow you to delete existing partitions and to create one or more new partitions. \par
+\b IMPORTANT:\b0  If you follow these steps on a hard disk that is not empty, all of the data stored on that hard disk will be permanently deleted.\par
+To use the disk partitioning and formatting tools in Windows XP Setup:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Insert the Windows XP CD into your CD/DVD drive (or insert the first Windows XP Setup boot disk into the floppy disk drive), and then restart the computer. \par
+\pard\li720\sb100\sa100\b Note\b0 : To start your computer from the Windows XP CD (or from the Setup boot disk), your computer must be configured to start from the CD/DVD drive (or the floppy disk drive). In some cases, you might have to modify your computer's BIOS settings to do this. For more information, see "{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069048""}}{\fldrslt{\cf1\ul Configure a computer to boot from CD}}}\cf0\ulnone\f0\fs24 ."\par
+\pard\fi-360\li720\sb100\sa100\tx720 If you are starting the computer from the Windows XP CD, press a key to boot from CD when you are prompted to do so. If you are starting from the Windows XP Setup boot disks, insert each of the additional disks when prompted, and then press ENTER to continue after inserting each disk. \par
+At the \b Welcome to Setup\b0  page, press ENTER to continue. \par
+On the \b License Agreement\b0  page, read the agreement, and then follow the instructions for accepting or rejecting the agreement. \par
+If an existing Windows XP installation is detected, you will be prompted to repair it. Press ESC (do not repair). \par
+All existing partitions and unpartitioned spaces are listed for each physical hard disk. Use the arrow keys to select the partition or unpartitioned space where you want to create a new partition, and then press D to delete an existing partition or press C to create a new partition using unpartitioned space. \par
+\pard\li720\sb100\sa100 If you press D to delete an existing partition, you must then press L (or press ENTER, and then press L if it is the System partition) to confirm that you want to delete the partition. Repeat this process for each of the existing partitions that you want to use for the new partition. When all the partitions are deleted, select the resulting unpartitioned space and press C to create a new partition.\par
+\b Note:\b0  If you want to create a partition where one or more partitions already exist, you must first delete the existing partition or partitions and then create the new partition.\par
+\pard\fi-360\li720\sb100\sa100\tx720 Type the size (in megabytes, or MB) that you want to use for the new partition, and then press ENTER, or just press ENTER to create the partition using the maximum size. \par
+If you want to create additional partitions, repeat steps 6 and 7. \par
+If you want to install Windows XP, use the arrow keys to select the partition you want to install it on, and then press ENTER. If you do not want to format the partition and install Windows XP, press F3 two times to quit Setup, and then do not continue with the following steps. In this case, you must use another program to format the partition. \par
+Select the format option that you want to use for the partition, and then press ENTER. The options are: \par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li1440\sb100\sa100 Format the partition by using the NTFS file system (Quick) \par
+{\pntext\f2\'B7\tab}Format the partition by using the FAT file system (Quick) \par
+{\pntext\f2\'B7\tab}Format the partition by using the NTFS file system \par
+{\pntext\f2\'B7\tab}Format the partition by using the FAT file system \par
+{\pntext\f2\'B7\tab}Leave the current file system intact (no changes) \par
+\pard\li720\sb100\sa100 For most configurations, NTFS is a good choice for security and flexibility. If you plan to install a multiboot configuration and access data on the drive using older operating systems such as Windows 95, Windows 98, or Windows Millennium Edition, however, select FAT.\par
+When you format a volume, files are removed from the volume and the hard disk is scanned for bad sectors. The majority of the time required to format a volume is devoted to scanning the disk. If you choose the Quick format option, files are removed from the partition, but the disk is not scanned for bad sectors. You should only use this option if your hard disk has been previously formatted and you are sure that your hard disk is not damaged.\par
+\b Note:\b0  During Windows XP Setup, the option to leave the current file system intact is not available if the selected partition is a new partition. For partitions up to 2 gigabytes (GB) in size, Setup uses the FAT (also known as FAT16) file system. For partitions greater than 2 GB but less than 32 GB, Setup uses the FAT32 file system. For partitions greater than 32 GB, Setup uses NTFS.\par
+\b Note:\b0  If you deleted and created a new System partition but you are installing Windows XP on another partition, you will be prompted to select a file system for both the System and Boot partitions at this point.\par
+\pard\fi-360\li720\sb100\sa100\tx720 After Setup formats the partition, follow the on-screen instructions to continue Setup. After Setup is complete, you can use the Disk Management tools in Windows XP to create or format additional partitions. \par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Perform other Setup-related tasks\par
+\kerning0\fs36 How do I install Windows from the command prompt?\par
+\pard\sb100\sa100\b0\fs24 If your computer will not boot from a CD, you can still use the Windows XP Setup floppy disks to start Setup. During Setup, you will be prompted to insert the Windows XP CD. For more information, see "{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069047""}}{\fldrslt{\cf1\ul Create boot disks}}}\cf0\ulnone\f0\fs24 ."\par
+Otherwise, you can use a Windows 98 or Windows Millennium Edition Startup disk to start the computer, and then run Winnt.exe from the i386 folder of your Windows XP CD.\par
+\pard\fi-360\li720\sb100\sa100\tx720 The Smartdrv.exe tool will speed up the process of copying files from the CD to your hard drive. To use the Smartdrv.exe tool, make sure the Smartdrv.exe file is present on the startup disk. \par
+\pard\li720\sb100\sa100 If you do not have Smartdrv.exe, file copying will take much longer but it can still be done successfully. Verify that the following entries exist in the following files on your startup disk; add the entries if they do not already exist:\par
+In Autoexec.bat, add this line:\par
+smartdrv.exe\par
+In Config.sys, add this line:\par
+device=himem.sys\par
+\b Note:\b0  For information about modifying the Config.sys and Autoexec.bat files, see Microsoft Knowledge Base article 232558.\par
+\pard\fi-360\li720\sb100\sa100\tx720 Insert the startup disk into your computer's floppy drive, and restart the computer. \par
+When the DOS prompt appears (it looks like this: C:>), type the following lines, pressing ENTER after each one. Substitute the drive letter of your CD-ROM drive for the letter D, if yours is different. \par
+\pard\li720\sb100\sa100\b D:\b0\par
+\b cd \\i386\b0\par
+\b winnt\b0\par
+When Setup begins, follow the prompts on your screen.\par
+\pard\keepn\sb100\sa100\b\fs36 How do I set the default operating system (when multiple systems are installed)?\par
+\pard\sb100\sa100\b0\fs24 If you have more than one operating system installed, you can select the operating system that you want to use as the default:\par
+\pard\fi-360\li720\sb100\sa100\tx720 In Windows XP, right-click \b My Computer\b0 , and then click \b Properties\b0 . \par
+On the \b Advanced\b0  tab, under \b Startup and Recovery\b0 , click \b Settings\b0 . \par
+Under \b System startup\b0 , in the \b Default operating system\b0  list, click the operating system that you want to start when you turn on or restart your computer. \par
+Select the \b Time to display list of operating systems\b0  check box, and then select the number of seconds for which you want the list displayed before the default operating system starts. \par
+\pard\sb100\sa100\b Warning:\b0  The boot options file (Boot.ini) controls the number and order of operating systems on your computer. To manually edit this file, click \b Edit\b0  on the \b Startup and Recovery\b0  tab. Use caution when modifying the boot options file. Doing so incorrectly might make your computer unusable. For more information, see Microsoft Knowledge Base article 289022.\par
+\pard\keepn\sb100\sa100\b\fs36 How do I uninstall Windows XP?\par
+\pard\sb100\sa100\b0\fs24 If you need to uninstall Windows XP and return to the operating system from which you originally upgraded, follow these instructions.\par
+\b Note:\b0  If you performed a new installation instead of upgrading, you cannot uninstall Windows XP. In this case, you need to perform a new installation of your previous operating system.\par
+\pard\keepn\sb100\sa100\b\fs28 Important Notes:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100\b0\fs24 If enough space is available, the Windows XP uninstallation files are automatically saved during the upgrade process. If space is not available, the files are not saved. If the files were not saved, you cannot use the uninstallation process that is described in this section. \par
+{\pntext\f2\'B7\tab}Any programs that were installed prior to the Windows XP upgrade will be preserved. However, any programs that were installed after the Windows XP upgrade will not be available after you uninstall Windows XP. You might need to reinstall these programs. \par
+{\pntext\f2\'B7\tab}To be able to successfully uninstall Windows XP SP2, you must have upgraded from Windows 98, Windows 98 Second Edition, or Windows Millennium Edition. If you upgraded from Windows XP, Windows 2000, Windows NT 4.0, or Windows 95, you cannot uninstall Windows XP SP2. \par
+{\pntext\f2\'B7\tab}If you converted your hard disk to the NTFS file system, you cannot revert back to an operating system that is incompatible with NTFS (for example, you cannot revert back to Windows 98 or Windows Millennium Edition). \par
+\pard\keepn\sb100\sa100\b\fs28 To uninstall Windows XP:\par
+\pard\fi-360\li720\sb100\sa100\tx720\b0\fs24 Restart your computer in Safe Mode. To do so, restart your computer and press F8 while Windows is starting. \par
+Log on using the Administrator account. \par
+Click \b Start\b0 , click \b Control Panel\b0 , and then double-click \b Add or Remove Programs\b0 . \par
+In the list of installed programs, double-click \b Uninstall Windows XP\b0 . \par
+\pard\li720\sb100\sa100\b Important:\b0  If Uninstall Windows XP is not in the list of installed programs, you must manually reinstall the original operating system. If this is the case, be sure to back up all of your critical data before you proceed.\par
+If you have upgraded to Windows XP from Windows 98 or Windows Millennium Edition, it might be possible to manually uninstall Windows XP if the Undo folder is still available. For more information, see Microsoft Knowledge Base article 312569.\par
+\pard\fi-360\li720\sb100\sa100\tx720 When you receive the "Are you sure you want to uninstall Windows XP and restore your previous operating system?" message, click \b Yes\b0  to start the Windows XP uninstallation process. \par
+After the Windows XP uninstallation process is finished, your computer will shut down and then restart using the previously installed operating system. \par
+\pard\keepn\sb100\sa100\b\fs36 How do I remove Windows XP from one computer and install it on another?\par
+\pard\sb100\sa100\b0\fs24 Follow the instructions above for uninstalling Windows XP. Then, use the Windows XP CD to install Windows XP on the new computer.\par
+For more information, see Microsoft Knowledge Base article 303661 and read the topic about activation failures when moving Windows XP to another computer.\par
+\pard\keepn\sb100\sa100\b\fs36 How do I deal with activation problems?\par
+\pard\sb100\sa100\b0\fs24 If you are prompted to activate your installation of Windows XP, defer activation until you have completed planned upgrades or changes to your computer's fixed hardware and related device drivers. Otherwise, you may need to reactivate after making such changes. Fixed hardware/drivers include the first instance of devices such as video, network (excluding modems), SCSI, hard drives, CD-ROM/DVD, and system memory. USB or other removable devices (such as cameras and printers) do not affect activation.\par
+If you uninstall Windows XP from one computer (Computer A) and then install it on a second computer (Computer B), the following can occur:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 If fewer than 120 days have passed since the first installation of Windows XP on Computer A, you cannot activate Windows on Computer B over the Internet. Instead, when you are prompted to activate, you must call the phone number listed in the Activation Wizard, explain that you uninstalled and then reinstalled to a different computer, and be given a valid product key. \par
+{\pntext\f2\'B7\tab}If it has been more than 120 days since the first installation of Windows XP on Computer A, activation on Computer B should work normally. \par
+\pard\sb100\sa100 For more information about troubleshooting activation problems, see Microsoft Knowledge Base articles 293764, 293764, 312295, 314935, and 318702.\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Troubleshoot Setup\par
+\pard\sb100\sa100\kerning0\b0\fs24 Did you run into problems during Setup? Unfortunately, it does sometimes happen. Some problems can be solved by using the information in this section.\par
+\b Important:\b0  If you have virus protection software installed on your computer, disable it. Virus protection software can cause problems during setup. Be sure to enable your virus protection software after installing Windows XP.\par
+You can use the following troubleshooting steps if you have problems when you are upgrading to Windows XP from Windows 98, Windows 98 Second Edition, or Windows Millennium Edition.\par
+\pard\keepn\sb100\sa100\b\fs36 General troubleshooting\par
+\pard\sb100\sa100\b0\fs24 If you encounter problems while running Setup, exit Setup and run the Upgrade Advisor from the Windows XP CD. Here's how:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Insert the Windows XP CD into your CD-ROM drive. \par
+When the \b Welcome\b0  menu appears, click \b Check system compatibility\b0 . \par
+Then click \b Check my system automatically\b0 . \par
+\pard\sb100\sa100 Upgrade Advisor will check for hardware and software incompatibilities. These are often the cause of Setup problems. Remove or uninstall the incompatible hardware or software, and then run Setup again.\par
+If Upgrade Advisor does not find the problem, you can also clean boot your computer and run Setup again. Clean-boot troubleshooting is simply a way of removing variables that could cause problems.\par
+\pard\keepn\sb100\sa100\b\fs28 To perform clean boot troubleshooting in Windows Millennium Edition:\par
+\pard\fi-360\li720\sb100\sa100\tx720\b0\fs24 Click \b Start\b0 , click \b Run\b0 , in the \b Open\b0  box, type \b msconfig\b0  and then click \b OK\b0 . \par
+On the \b General\b0  tab, click \b Selective startup\b0 . \par
+Clear all the check boxes under \b Selective startup\b0 . \par
+On the \b Startup\b0  tab, select the \b *StateMgr\b0  check box (Windows Millennium Edition only), and then click \b OK\b0 . \par
+When you are prompted to restart your computer, click \b Yes\b0 . \par
+After the computer restarts, click \b Start\b0 , click \b Run\b0 , in the \b Open\b0  box, type \b msconfig\b0 , and then click \b OK\b0 . \par
+\pard\li720\sb100\sa100\b Important:\b0  Look closely at the \b General\b0  tab to make sure that the check boxes under \b Selective startup\b0  are clear. Proceed to the next step if none of the check boxes are selected. If you see a disabled or gray check box, your computer is not truly clean-booted and you might need assistance from the manufacturer of the program that is affecting Msconfig.\par
+\pard\fi-360\li720\sb100\sa100\tx720 After you verify that your computer is clean-booted, try running Windows XP Setup again. \par
+\pard\sb100\sa100 For more information, see Microsoft Knowledge Base article 267288.\par
+\pard\keepn\sb100\sa100\b\fs28 To return from a clean boot state\par
+\pard\fi-360\li720\sb100\sa100\tx720\b0\fs24 Click \b Start\b0 , click \b Run\b0 , in the \b Open\b0  box, type \b msconfig\b0 , and then click \b OK\b0 . \par
+On the \b General\b0  tab, click \b Normal startup\b0 , and then click \b OK\b0 . \par
+Click \b Yes\b0  when you are prompted to restart your computer. \par
+\pard\keepn\sb100\sa100\b\fs28 To perform clean boot troubleshooting in Windows 98:\par
+\pard\sb100\sa100\b0\fs24 For information about performing a clean boot for troubleshooting purposes in Windows 98, see Microsoft Knowledge Base article 192926.\par
+\pard\keepn\sb100\sa100\b\fs36 File copy error during Setup\par
+\pard\sb100\sa100\b0\fs24 Suppose Setup stops when copying files, and you see a message like this:\par
+\b Setup cannot copy the file <file_name>. Press X to retry, Y to abort.\b0\par
+Here are some possible causes and solutions for this problem:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 Your Windows XP CD is scratched, smudged, or dirty. Clean the CD with a soft cloth, insert it into the CD drive, and then click \b OK\b0 . \par
+{\pntext\f2\'B7\tab}Your CD drive is not working properly or the CD might be vibrating too much for the laser to accurately read the data. For more information about this problem, consult your hardware documentation, or contact the CD drive manufacturer. \par
+{\pntext\f2\'B7\tab}If you are using multiple CD drives, your computer might be trying to locate files on the wrong drive. If your hardware has a feature to disable CD drives that are not being used, disable the CD drives that you are not using. \par
+\pard\li720\sb100\sa100\b Note:\b0  To disable a device in Windows 95, right-click \b My Computer\b0 , click \b Properties\b0 , open \b Device Manager\b0 , and then clear \b Original Configuration (Current)\b0 . In Windows 98 and Windows Millennium Edition, select the \b Disable in this hardware profile\b0  check box in Device Manager.\par
+If required, re-enable the device after upgrading to Windows XP. For more information, see Microsoft Knowledge Base article 283658.\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 There is a virus on your computer. Run a virus-scanning program to check your system and identify needed repairs. \par
+\pard\sb100\sa100\b Note:\b0  If you experience problems during installation, you can use the Windows Memory Diagnostic tool to test your computer's random access memory (RAM). This tool helps determine whether installation problems are caused by failing hardware, such as RAM or the memory system of the motherboard. To use the tool, follow the instructions on the {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=19751"}}{\fldrslt{\cf1\ul Windows Memory Diagnostic}}}\cf0\ulnone\f0\fs24  (http://oca.microsoft.com/en/windiag.asp) Web site.\par
+For information about several more technical issues that might be causing the problem, see Microsoft Knowledge Base article 310064: How to Troubleshoot Windows XP Problems During Installation.\par
+If you can rule out all of the causes listed above, and you continue to receive the error message, copy the i386 folder from the CD drive to your local hard disk, and then try to run Setup from your hard disk. Here's how: \par
+\pard\fi-360\li720\sb100\sa100\tx720 The Smartdrv.exe tool will speed up the process of copying files from the CD to your hard drive. To use the Smartdrv.exe tool, make sure the Smartdrv.exe file is present on the startup disk. \par
+\pard\li720\sb100\sa100 If you don't have Smartdrv.exe, file copying will take much longer but it can still be done successfully. Verify that the following entries exist in the following files on your startup disk; add the entries if they do not already exist:\par
+In Autoexec.bat, add this line:\par
+smartdrv.exe\par
+In Config.sys, add this line:\par
+device=himem.sys\par
+\b Note:\b0  For information about modifying the Config.sys and Autoexec.bat files, see Microsoft Knowledge Base article 232558.\par
+\pard\fi-360\li720\sb100\sa100\tx720 Insert the startup disk into your computer's floppy drive, and restart the computer. \par
+When the DOS prompt appears (it looks like this: C:>), type the following lines, pressing ENTER after each one. Substitute the drive letter of your CD-ROM drive for the letter D, if yours is different. \par
+\pard\li720\sb100\sa100\b D:\b0\par
+\b cd \\i386\b0\par
+\b winnt\b0\par
+When Setup begins, follow the prompts on your screen.\par
+\pard\sb100\sa100\b Note:\b0  There is no option to boot to a command prompt on the initial startup menu in Windows Millennium Edition. However, you can boot to a startup floppy disk and then type C: and press ENTER to access the hard drive, as long as the startup disk uses the same file system as the hard disk.\par
+\pard\keepn\sb100\sa100\b\fs36 Your computer hangs or stops responding and displays a black screen\par
+\pard\sb100\sa100\b0\fs24 When you try to upgrade to Windows XP, your computer might stop responding (hang) and a black screen might be displayed. This is usually caused by hardware or software that is incompatible with Windows XP.\par
+\b Note:\b0  Before beginning Setup, you should compare your system's hardware to the Hardware Compatibility List (HCL). You can also find information about each of your computer's devices (such as printers, scanners, and so on) at the device manufacturer's Web site, in the Windows Catalog:\par
+{\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=20496"}}{\fldrslt{\cf1\ul Text version of the HCL (for all operating systems)}}}\cf0\ulnone\f0\fs24\line (https://winqual.microsoft.com/download/default.asp)\par
+{\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=20497"}}{\fldrslt{\cf1\ul Text version of the HCL (for Windows XP only)}}}\cf0\ulnone\f0\fs24\line (https://winqual.microsoft.com/download/display.asp?FileName=hcl/WinXPHCLx86.txt)\par
+{\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=18784"}}{\fldrslt{\cf1\ul The Windows Catalog}}}\cf0\ulnone\f0\fs24\line (http://www.microsoft.com/windows/catalog/)\par
+You can get to all of the above from {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=14123"}}{\fldrslt{\cf1\ul Windows Hardware and Driver Central}}}\cf0\ulnone\f0\fs24  (http://www.microsoft.com/whdc/hcl/default.mspx)\par
+If your computer stops responding and displays a black screen during Setup, follow these steps:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Wait at the black screen for 10 minutes to make sure that the computer does not continue with the Setup procedure. Watch the hard drive indicator to see if there is any disk activity. Setup might resolve the problem on its own. \par
+Restart the computer to see if it stops again at the same place during Setup. Occasionally, Setup will proceed farther than the last time it stopped responding. If this occurs, restart your computer several times so that Setup will finish. \par
+If steps 1 and 2 don't work, to revert back to Windows 98 or Windows Millennium Edition, restart the computer and choose the option to \b Cancel Windows XP Setup\b0 . If canceling Windows XP Setup is not an option when you restart your computer, see step 5. \par
+After you revert back to Windows 98 or Windows Millennium Edition, uninstall all virus protection programs, uninstall all boot manager programs (such as GoBack), and then {\field{\*\fldinst{HYPERLINK "\\\\l "e""}}{\fldrslt{\cf1\ul perform a clean boot of your computer}}}\cf0\ulnone\f0\fs24 . \par
+If the upgrade fails again, there might be a hardware incompatibility issue. You can try to disable ACPI functionality. To do this, when your computer restarts, watch for an option to press F6 to install SCSI drivers. On this screen, press F7 (not F6). \par
+If Setup continues to stop responding, disable any unnecessary hardware. Remove any USB devices, remove or disable network cards, sound cards, and serial cards, and then restart Setup. \par
+If you continue to receive this error message, you might need to flash (update) the BIOS on the motherboard. Please refer to the manufacturer of your computer or to the motherboard Web site for information about how to flash the BIOS. \par
+\pard\li720\sb100\sa100\b Warning:\b0  Do not attempt to flash the BIOS unless you are an advanced user. Doing this incorrectly can make your computer unusable.\par
+\pard\fi-360\li720\sb100\sa100\tx720 If a BIOS update does not resolve the issue, or if you are unable to obtain an updated BIOS version for the computer, you might want to install Windows XP with a Standard PC Hardware Abstraction Layer (HAL). To do so, press F7 (not F6) when you are prompted to press F6 after Setup restarts the computer for the first time. For more information about how to force the Standard PC HAL, see Microsoft Knowledge Base article 299340: How to Force a HAL During Windows XP Setup. \par
+\pard\keepn\sb100\sa100\b\fs36 You receive an error message or Stop message during Setup\par
+\pard\sb100\sa100\b0\fs24 If you receive one of the following error messages during Setup, refer to the appropriate Microsoft Knowledge Base article:\par
+311562: 'An Unexpected Error (768) Occurred at Line 5118@ind:Xp\\Client\\Boot\\Setup\\Setup.c' Error Message During Windows XP Setup \par
+311564: 'Stop 0x0000000A Irql_Not_Less_or_Equal' Error Message During Windows XP Upgrade\par
+311442: Error Message: Setup Cannot Continue. Please Contact Microsoft Technical Support. (Error: 3E6h)\par
+\pard\keepn\sb100\sa100\b\fs36 Troubleshooting other errors:\par
+\pard\sb100\sa100\fs24 Note:\b0  If you experience problems during installation, you can use the Windows Memory Diagnostic tool to test your computer's random access memory (RAM). This tool helps determine whether installation problems are caused by failing hardware, such as RAM or the memory system of the motherboard. To use the tool, follow the instructions on the {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=19751"}}{\fldrslt{\cf1\ul Windows Memory Diagnostic}}}\cf0\ulnone\f0\fs24  (http://oca.microsoft.com/en/windiag.asp) Web site.\par
+\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx3734\clvertalc\cellx9350\pard\intbl\sb100\sa100\qc\b Problem \cell Solution\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx3734\clvertalc\cellx9350\pard\intbl\sb100\sa100\b0 A program or a device doesn't work after upgrading to Windows XP. \cell First, try reinstalling the program or device. If that doesn't solve the problem, check with the manufacturer for a newer version of the software or hardware that is designed to work with Windows XP. If this is an older program, search Windows Help and Support for the word "compatibility" to see instructions for running the Program Compatibility Wizard.\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx3734\clvertalc\cellx9350\pard\intbl\sb100\sa100 Message: Incomplete file copy\cell Refer to the file copy troubleshooting section in Microsoft Knowledge Base article 310064.\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx3734\clvertalc\cellx9350\pard\intbl\sb100\sa100 Message: NTLDR is missing\cell If you choose to update files at the beginning of Setup, this will be fixed automatically. See Microsoft Knowledge Base article 322069. For troubleshooting this error, see Microsoft Knowledge Base article 314057.\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx3734\clvertalc\cellx9350\pard\intbl\sb100\sa100 Message: Error 127 or error code fffffdf0 in catroot2 folder \cell Rename the Windows\\System\\Catroot2 folder and run Setup again. See Microsoft Knowledge Base article 307153. This has been fixed in Dynamic Update 1.3. Run Setup again and download the updated Setup files when prompted.\cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx3734\clvertalc\cellx9350\pard\intbl\sb100\sa100 Message: "File not found: ASMS" \cell For troubleshooting tips, see Microsoft Knowledge Base article 311755. \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx3734\clvertalc\cellx9350\pard\intbl\sb100\sa100 Setup hangs during "finalizing settings" phase. \cell This error is usually caused by virus protection software. Cancel Setup, disable your virus protection software, and then start Setup again. (Or, if you choose to update files at the beginning of Setup, this will be fixed automatically.) \cell\row\pard\keepn\sb100\sa100\kerning36\b\fs48 Create boot disks\par
+\pard\sb100\sa100\kerning0\b0\fs24 A boot disk is a floppy disk or set of disks that lets you start the computer without using Windows. It can be useful to have this when doing certain types of troubleshooting and when performing a new installation of Windows. \par
+You can download a program to create the six Windows XP Setup boot floppy disks that contain the files and drivers required to access the CD-ROM drive and begin the Setup process. To do this, go to {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=20508"}}{\fldrslt{\cf1\ul Obtaining Windows XP Setup Boot Disks}}}\cf0\ulnone\f0\fs24  (http://support.microsoft.com:80/support/kb/articles/q310/9/94.asp).\par
+However, rather than creating boot disks, we recommend that you boot your computer from the Windows XP CD to start Setup. If your computer is not already able to do this (most newer computers are), refer to the section titled "{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069048""}}{\fldrslt{\cf1\ul Configure a computer to boot from CD}}}\cf0\ulnone\f0\fs24 " for more information. If your computer does not support booting from CD, you can download a file that will help you create boot disks. See the list at the end of this section for download locations.\par
+\pard\keepn\sb100\sa100\b\fs36 Creating the Setup boot disks\par
+\pard\fi-360\li720\sb100\sa100\tx720\b0\fs24 When you download the Setup disks, the download contains only one large program file. When you run the downloaded file, it extracts the files to individual floppy disks. You receive the following prompt: \par
+\pard\li720\sb100\sa100\b This program creates the Setup boot disks for Microsoft Windows XP. \b0\par
+To create these disks, you need to provide 6 blank, formatted, high-density disks.\par
+Please specify the floppy drive to copy the images to.\par
+\pard\fi-360\li720\sb100\sa100\tx720 Type the drive letter for the floppy disk drive (this is typically drive A). After you type the floppy disk drive letter, you see the following prompt: \par
+\pard\li720\sb100\sa100 Insert one of these disks into drive <drive letter>:. This disk will become the Windows XP Setup Boot Disk.\par
+Press any key when you are ready.\par
+\pard\fi-360\li720\sb100\sa100\tx720 When you press a key, the downloaded file starts extracting and copying the files. Continue inserting the blank disks as you are prompted to do so until all six disks are created. If the process is interrupted, you must run the downloaded program file again to create all six disks. \par
+Label each disk with the number that is specified by the program. You must use the disks in the correct order during the Setup process. \par
+After you create all six disks, insert the first disk in the floppy disk drive, and then restart the computer. Note that the computer must be configured to boot from the floppy disk drive. Most computers will do this automatically, but in some cases, you might need to modify your computer's BIOS settings to do this. For information about modifying your computer's BIOS settings, refer to the section titled "{\field{\*\fldinst{HYPERLINK "\\\\l "_Toc42069048""}}{\fldrslt{\cf1\ul Configure a computer to boot from CD}}}\cf0\ulnone\f0\fs24 ." \par
+When you restart the computer, the Setup process begins. Insert each floppy disk as you are prompted to do so. You will then be prompted for the Windows XP CD to finish Setup. \par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Configure a computer to boot from CD\par
+\pard\sb100\sa100\kerning0\b0\fs24 Some computers might automatically offer the option to boot from CD if they detect a bootable CD in the CD-ROM drive. If so, when you start the computer with a bootable CD in the CD-ROM drive, you'll see the message "Press any key to boot from CD." Otherwise, you can set your computer to boot from CD by using the setup program for your computer's BIOS (basic input/output system). Here's how:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 When you first start the computer, look for a short message telling you which key to press for setup. For example, some computers will have this message: \b Press DELETE to enter setup\b0 . \par
+\pard\li720\sb100\sa100 If your computer doesn't give you such a message, try pressing these commonly used keys during startup: \par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li1440\sb100\sa100 DELETE \par
+{\pntext\f2\'B7\tab}F1 \par
+{\pntext\f2\'B7\tab}F2 \par
+{\pntext\f2\'B7\tab}F3, then F2 \par
+{\pntext\f2\'B7\tab}F10 \par
+{\pntext\f2\'B7\tab}CTRL+ALT+ESC \par
+{\pntext\f2\'B7\tab}CTRL+ALT+S \par
+{\pntext\f2\'B7\tab}ESC \par
+\pard\li720\sb100\sa100 If graphics appear during startup, pressing ESC often makes the graphics disappear so that you can see the correct key for entering BIOS setup.\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 When you see the message, quickly press the indicated key. You will enter a DOS-like program that consists of one or more screens. You probably won't be able to use the mouse while in this program. BIOS programs vary widely, but look for an option called "Boot order" or something similar. \par
+{\pntext\f2\'B7\tab}Set the boot order to boot from CD before booting from the hard drive. \par
+\pard\sb100\sa100 Some newer laptop computers have a Windows-based utility for configuring the BIOS. If your computer won't boot from a CD, refer to the section titled "Other Setup-related tasks" for information about starting Setup from the command prompt.\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Set up a multiboot system\par
+\pard\sb100\sa100\kerning0\b0\fs24 You can install more than one operating system on your computer and choose which operating system you want to use every time you start your computer. This is called a dual-boot or multiboot configuration. This section explains how to set up Windows XP as a multiboot system with the following operating systems: \par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 Windows 2000, Windows NT 4.0, and Windows NT 3.51 \par
+{\pntext\f2\'B7\tab}Windows 95, Windows 98, and Windows Millennium Edition \par
+{\pntext\f2\'B7\tab}MS-DOS or Windows 3.\i x\i0  \par
+\pard\keepn\sb100\sa100\b\fs36 Precautions\par
+\pard\sb100\sa100\b0\fs24 Before creating a multiboot configuration with Windows XP and another operating system, review the following precautions:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 Be sure to back up your current system and all data files. \par
+{\pntext\f2\'B7\tab}Each operating system must be installed on a separate volume. Microsoft does not support installing multiple operating systems on the same volume. \par
+{\pntext\f2\'B7\tab}If you have only one volume on your computer, you have to reformat and repartition your hard disk to contain multiple volumes before you begin creating a multiboot configuration, unless you are simply installing another copy of Windows XP. \par
+{\pntext\f2\'B7\tab}Do not install Windows XP on a compressed drive that was not compressed using the NTFS compression utility. \par
+{\pntext\f2\'B7\tab}Before installing Windows XP, you should disable antivirus software, and you might want to run the Windows Memory Diagnostic tool to test your computer's random access memory (RAM). To use the Windows Memory Diagnostic tool, follow the instructions on the {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=19751"}}{\fldrslt{\cf1\ul Windows Memory Diagnostic}}}\cf0\ulnone\f0\fs24  (http://oca.microsoft.com/en/windiag.asp) Web site. Be sure to enable your virus protection software after installing Windows XP. \par
+{\pntext\f2\'B7\tab}You must use a different computer name for each operating system if the computer is on a Windows 2000 or Windows XP domain. \par
+{\pntext\f2\'B7\tab}The operating systems should be installed from oldest to newest. If possible, install operating systems in the following order: \par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li1440\sb100\sa100 MS-DOS \par
+{\pntext\f2\'B7\tab}Windows 95, Windows 98 or Windows Millennium Edition \par
+\pard\li1440\sb100\sa100\b Note:\b0  You cannot install Windows Millennium Edition over any version of Windows NT, but they can exist together on a single system. It is recommended that you install each to a separate hard disk or partition. If Windows NT is already installed, Windows Millennium Edition Setup will add itself to the Windows NT boot menu to allow you to multiboot between Windows Millennium Edition and Windows NT. For more information, see Microsoft Knowledge Base article 271240.\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li1440\sb100\sa100 Windows NT \par
+{\pntext\f2\'B7\tab}Windows 2000 \par
+{\pntext\f2\'B7\tab}Windows XP (Professional or Home Edition) \par
+\pard\keepn\sb100\sa100\b\fs36 Partitioning the hard disk and selecting file systems\par
+\pard\sb100\sa100\b0\fs24 A partition is a logical section of a hard disk. Each partition normally has its own file system. For more information about partitions, see Microsoft Knowledge Base article 313348.\par
+You might need to reformat and repartition your hard disk if:\par
+\pard\fi-360\li720\sb100\sa100\tx720 You have only one volume but you want to set up a multiboot configuration. You have to install each operating system on a separate volume so that each installation can retain its own files and configuration information. \par
+The boot volume is not formatted with the correct file system: \par
+\pard\fi-360\li1440\sb100\sa100\tx1440 If you want to create a multiboot system by using Windows 95, Windows 98 or Windows Millennium Edition along with Microsoft Windows XP, you have to format the boot volume by using FAT because Windows 95, Windows 98 and Windows Millennium Edition do not support the NTFS file system. \par
+If you want to install Windows 95 (retail version 4.00.950), your boot volume must be formatted as FAT. Windows 95 (OSR2.1 and above) can have a FAT32 boot volume and dual boot with Windows 2000 and Windows XP. For more information, see Microsoft Knowledge Base article 258662. \par
+If you want to create a multiboot system using Windows 95 OSR2, Windows 98, or Windows Millennium Edition with Windows 2000 or Windows XP, you can format the boot volume by using FAT32. \par
+\pard\sb100\sa100\b Note:\b0  If you format a Windows NT 4.0, Windows 2000, or Windows XP volume with any file system other than NTFS, you will lose all NTFS-specific features. This includes Windows XP features such as file system security, Encrypting File System (EFS) settings, disk quotas, and remote storage. Likewise, Windows 95, Windows 98, and Windows Millennium Edition do not recognize an NTFS partition; they will identify it as unknown. Therefore, if you format a Windows 98 or Windows Millennium Edition partition as FAT, and a Windows XP partition as NTFS, any files on the NTFS partition will not be available or visible if you try to access them while running Windows 98 or Windows Millennium Edition.\par
+\pard\keepn\sb100\sa100\b\fs36 Supported file systems\par
+\pard\sb100\sa100\b0\fs24 The following table lists the supported file systems for Microsoft operating systems:\par
+\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100\qc\b Operating system\cell Supported file systems \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100\b0 MS-DOS \cell FAT \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100 Windows 3.1 \cell FAT \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100 Windows NT \cell FAT, NTFS \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100 Windows 95 \cell FAT \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100 Windows 95 OSR2 \cell FAT, FAT32 \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100 Windows 98 \cell FAT, FAT32 \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100 Windows Millennium Edition \cell FAT, FAT32 \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100 Windows 2000 \cell FAT, FAT32, NTFS \cell\row\trowd\trgaph10\trleft-10\trpaddl10\trpaddr10\trpaddfl3\trpaddfr3
+\clvertalc\cellx5606\clvertalc\cellx9350\pard\intbl\sb100\sa100 Windows XP (both Professional and Home Edition) \cell FAT, FAT32, NTFS \cell\row\pard\keepn\sb100\sa100\f1\fs20\par
+\b\f0\fs36 To create a multiboot system with Windows XP and MS-DOS, Windows 95, Windows 98, or Windows Millennium Edition\par
+\pard\sb100\sa100\b0\fs24 You cannot install two or more of the following in a multiboot configuration: Windows 95, Windows 98, and Windows Millennium Edition.\par
+These combinations work:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 MS-DOS, Windows 95, and Windows XP \par
+{\pntext\f2\'B7\tab}MS-DOS, Windows 98 or Windows Millennium Edition, and Windows XP \par
+\pard\sb100\sa100 This combination does not work:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 Windows 95, Windows 98, and Windows Millennium Edition \par
+\pard\sb100\sa100 You should install Windows XP only after installing MS-DOS, Windows 95, Windows 98, or Windows Millennium Edition. This will prevent these operating systems from overwriting the Windows XP boot sector and the Windows XP startup files.\par
+\b Note:\b0  If you install the operating systems in the wrong order, you will need to use the Recovery Console or run Windows XP Setup again to get Windows XP back. For more information, see Microsoft Knowledge Base article 307654.\par
+\pard\keepn\sb100\sa100\b\fs28 To create a multiboot system with Windows XP and MS-DOS, Windows 95, Windows 98, or Windows Millennium Edition:\par
+\pard\fi-360\li720\sb100\sa100\tx720\b0\fs24 Make sure that you have a separate partition or hard disk for each operating system you plan to install, and that each partition or hard disk is formatted with the correct file system. \par
+Do one of the following: \par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li1440\sb100\sa100 If you want a multiboot system with MS-DOS, Windows 95, Windows 98 or Windows Millennium Edition along with Windows XP, first install MS-DOS; followed by Windows 95, Windows 98, or Windows Millennium Edition; and then install Windows XP. \par
+{\pntext\f2\'B7\tab}If you want a dual-boot system with only Windows 95, Windows 98 or Windows Millennium Edition, install either Windows 95, Windows 98 or Windows Millennium Edition, and then install Windows XP. \par
+\pard\fi-360\li720\sb100\sa100\tx720 Install each operating system according to the standard installation procedure. \par
+\pard\keepn\sb100\sa100\b\fs36 To create a multiboot system with Windows NT 4.0 and Windows XP\par
+\pard\sb100\sa100\b0\fs24 Using a multiboot system with both Windows NT 4.0 and Windows XP is not recommended as a long-term solution. The NTFS update in Service Pack 5 (SP5) for Windows NT 4.0 is provided only to help you evaluate and upgrade to Windows XP.\par
+\pard\keepn\sb100\sa100\b\fs28 To create a multiboot system with Windows NT 4.0 and Windows XP:\par
+\pard\fi-360\li720\sb100\sa100\tx720\b0\fs24 Make sure that your hard disk is formatted with the correct file system: either FAT32 or NTFS. \par
+Install Windows NT 4.0, download Windows NT Service Pack 5 from Microsoft, and install the service pack. Then install Windows XP to a separate volume. \par
+Install each operating system according to the standard installation procedure. \par
+\pard\sb100\sa100\b Note:\b0  If you intend to install more than one operating system consisting of some combination of Windows NT 4.0 with either Windows 2000 or Windows XP as the only installed operating systems, you must make sure that you have installed Service Pack 5 or higher for Windows NT 4.0. You can download the latest Windows NT 4.0 Service Pack here: {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=19598"}}{\fldrslt{\cf1\ul Windows NT 4.0 Service Pack 6a}}}\cf0\ulnone\f0\fs24  (http://www.microsoft.com/ntserver/nts/downloads/recommended/SP6/allSP6.asp).\par
+Windows XP automatically upgrades any NTFS partitions that it finds on your system to the version of NTFS that is used in Windows 2000 and Windows XP. However, Windows NT 4.0 requires Service Pack 5 to read and write files on a volume that is formatted with the version of NTFS used in Windows 2000 and Windows XP.\par
+\pard\keepn\sb100\sa100\b\fs36 Installing programs on more than one operating system\par
+\pard\sb100\sa100\b0\fs24 If you have more than one operating system, and you want certain programs or drivers to work on both systems, you must install those items on each system separately. For example, if you want to use Microsoft Word on a computer with both Windows 98 and Windows XP installed, you have to install Microsoft Word two times (once on Windows 98 and once on Windows XP).\par
+You can install the program to the same path for different operating systems, as long as the target location uses a file system both operating systems can read.\par
+\b Note:\b0  Windows 95 or Windows 98 might reconfigure hardware settings the first time you use them, which might cause configuration problems when you start Windows XP.\par
+\pard\keepn\sb100\sa100\b\fs36 Specifying the default operating system for startup\par
+\pard\sb100\sa100\b0\fs24 If you have more than one operating system on your computer, you can set the operating system that you want to use as the default when you start your computer:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Click \b Start\b0 , click \b Control Panel\b0 , and then double-click \b System\b0 . \par
+On the \b Advanced\b0  tab, under \b Startup and Recovery\b0 , click \b Settings\b0 . \par
+Under \b System startup\b0 , in the \b Default operating system\b0  list, click the operating system that you want to start when you turn on your computer. \par
+Select the \b Display list of operating systems for\b0  check box, and then type the number of seconds for which you want the list displayed before the default operating system starts. \par
+\pard\sb100\sa100\b Warning:\b0  The boot options file (Boot.ini) controls the number and order of operating systems on your computer. To manually edit this file, click \b Edit\b0  on the \b Startup and Recovery\b0  tab. Use caution when modifying the boot options file. Doing so incorrectly might render your computer unusable. For more information, see Microsoft Knowledge Base article 289022.\par
+\pard\keepn\sb100\sa100\b\fs36 Troubleshooting problems with multiboot systems\par
+\pard\sb100\sa100\b0\fs24 These additional troubleshooting ideas might help you resolve your issue without having to call technical support:\par
+\pard\keepn\sb100\sa100\b\fs28 Errors with Internet Explorer:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100\b0\fs24 When you start Microsoft Internet Explorer, the browser might quit and you might receive an error message that is similar to the following: \par
+\pard\li720\sb100\sa100\b iexplore caused an Invalid Page Fault in module kernel32.dll\b0\par
+This error might occur if you install multiple operating systems on a single volume. To resolve this issue, install each operating system on a separate volume.\par
+\pard\keepn\sb100\sa100\b\fs28 You cannot configure your computer to start both Windows 95 and Windows 98 (or Windows Millennium Edition)\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100\b0\fs24 You cannot configure a computer to multiboot Windows 95 and Windows 98 (or Windows Millennium Edition) because those platforms use the same boot file. Therefore, multibooting Windows 95, Windows 98 and Windows Millennium Edition at the same time is not supported. \par
+\pard\keepn\sb100\sa100\b\fs28 The boot menu does not appear upon startup\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100\b0\fs24 When you start your computer, the boot menu does not appear and you are unable to start Windows XP. This problem might occur if you install Windows 95, Windows 98 or Windows Millennium Edition after you install Windows XP. To resolve this issue, repair or reinstall Windows XP. \par
+\pard\sb100\sa100 For more information about multibooting with Windows 2000 and Windows XP, see {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=3530"}}{\fldrslt{\cf1\ul Multibooting with Windows 2000 and Windows XP}}}\cf0\ulnone\f0\fs24  (http://www.microsoft.com/windows2000/techinfo/administration/management/mltiboot.asp).\par
+Also, see Microsoft Knowledge Base article 205287.\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Repair or recover a system\par
+\pard\sb100\sa100\kerning0\b0\fs24 You can repair or recover your system in several different ways. Instructions for each method are below. Try the methods in this order:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Revert to the "Last Known Good" configuration. \par
+Start the computer in Safe Mode and try to fix the problem. \par
+Use the Windows XP Recovery Console. \par
+Use System Restore. \par
+Use Automated System Recovery (works for Windows XP Professional only, not Windows XP Home Edition). \par
+\pard\keepn\sb100\sa100\b\fs36 To use the Last Known Good configuration:\par
+\pard\sb100\sa100\b0\fs24 If Windows XP will not start, you can restore your system to the Last Known Good configuration \endash  in other words, your most recent settings that worked. Here's how:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Start the computer and then press the F8 key when Windows begins to start. The \b Windows Advanced Options\b0  menu appears. \par
+Use the arrow keys to select \b Last Known Good Configuration (your most recent settings that worked)\b0 , and then press ENTER. \par
+If a boot menu appears, use the arrow keys to select \b Microsoft Windows XP\b0 , and then press ENTER. Windows XP restores the computer to the most recent restore point. \par
+\pard\keepn\sb100\sa100\b\fs36 To use the Windows XP Recovery Console:\par
+\pard\sb100\sa100\b0\fs24 The Windows XP Recovery Console allows you to:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 Use, copy, rename, or replace operating system files and folders. \par
+{\pntext\f2\'B7\tab}Enable or disable service or device startup when you next start your computer. \par
+{\pntext\f2\'B7\tab}Repair the file system boot sector or the Master Boot Record (MBR). \par
+{\pntext\f2\'B7\tab}Create and format partitions on drives. \par
+\pard\sb100\sa100 Here's how to use the Recovery Console:\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 Insert the Windows XP CD into your CD-ROM drive, and then restart your computer. \par
+{\pntext\f2\'B7\tab}On the menu that appears, click \b Install Windows XP\b0 . \par
+{\pntext\f2\'B7\tab}Press R to repair the selected Windows installation. \par
+\pard\sb100\sa100 When you use the Recovery Console, you will be prompted to enter the Administrator account password. If you enter an incorrect password three times, the Recovery Console will close. If the database that contains user account information for your computer is missing or damaged, you will not be able to use the Recovery Console.\par
+After you enter your password and the Recovery Console starts, type \b exit\b0  to restart the computer. The Recovery Console has some other limitations. For details, see Microsoft Knowledge Base article 314058: Description of the Windows XP Recovery Console.\par
+\pard\keepn\sb100\sa100\b\fs36 To use System Restore\par
+\pard\sb100\sa100\b0\fs24 The following section describes how to use the System Restore tool to return your computer to a previous working state. System Restore takes a "snapshot" of critical system files and some program files and stores this information as restore points. You can use these restore points to return Windows XP to a previous state.\par
+\pard\keepn\sb100\sa100\b\fs28 To create a restore point\par
+\pard\sb100\sa100\b0\fs24 Creating a restore point is useful any time you anticipate making changes to your computer that are risky or that might make your computer unstable.\par
+\pard\fi-360\li720\sb100\sa100\tx720 To access the System Restore Wizard, click \b Start\b0 , and then click \b Help and Support\b0 . Click \b Performance and Maintenance\b0 , click \b Using System Restore to undo changes\b0 , and then click \b Run the System Restore Wizard\b0 . \par
+Click \b Create a restore point\b0 , and then click \b Next\b0 . \par
+In the \b Restore point\b0  box, type a name to identify this restore point. System Restore automatically adds to this name the date and time that this restore point is created. \par
+To finish creating this restore point, click \b Create\b0 . \par
+\pard\keepn\sb100\sa100\b\fs28 Using System Restore to Restore Windows XP\par
+\pard\sb100\sa100\b0\fs24 If Windows XP will start, you can use System Restore to set your system back to an earlier, working point. Here's how:\par
+\pard\fi-360\li720\sb100\sa100\tx720 Log on to Windows as Administrator. \par
+Click \b Start\b0 , point to \b All Programs\b0 , point to \b Accessories\b0 , point to \b System Tools\b0 , and then click \b System Restore\b0 . System Restore starts. \par
+On the \b Welcome to System Restore\b0  page, click \b Restore my computer to an earlier time\b0  (if it is not already selected), and then click \b Next\b0 . \par
+On the \b Select a Restore Point\b0  page, click the most recent system checkpoint in the \b On this list, click a restore point\b0  list, and then click \b Next\b0 . A System Restore message might appear that lists configuration changes that System Restore will make. Click \b OK\b0 . \par
+On the \b Confirm Restore Point Selection\b0  page, click \b Next\b0 . System Restore restores the previous Windows XP configuration, and then restarts the computer. \par
+Log on to the computer as Administrator. The \b System Restore Restoration Complete\b0  page appears. Click \b OK\b0 . \par
+\pard\keepn\sb100\sa100\b\fs36 To use Automated System Recovery:\par
+\pard\sb100\sa100\b0\fs24 We recommend that you regularly create backups as part of an overall plan for system recovery.\par
+\b Note:\b0  Restoring from backup should be a last resort for system recovery. Use this method only after you have exhausted other options. For example, you should first try starting the computer in Safe Mode and reverting to the Last Known Good configuration. These steps are described earlier in this section.\par
+Automated System Recovery (ASR) is a two-part system; it includes ASR backup and ASR restore. The ASR Wizard, located on the \b Start\b0  menu under Accessories\\System Tools\\Backup, does the backup portion. The wizard backs up the system state, system services, and all the disks that are associated with the operating system components. ASR also creates a file that contains information about the backup, the disk configurations (including basic and dynamic volumes), and how to perform a restore.\par
+You can access the restore portion by pressing F2 when prompted in the text-mode portion of Setup. ASR reads the disk configurations from the file that it creates. It restores all the disk signatures, volumes, and partitions on the disks that you need to start the computer. ASR will try to restore all the disk configurations, but under some circumstances it might not be able to. ASR then installs a simple installation of Windows and automatically starts a restoration using the backup created by the ASR Wizard.\par
+For more information about system recovery and repair, see the following Microsoft Knowledge Base articles:\par
+\pard\fi-360\li720\sb100\sa100\tx720 818903: Automated System Recovery Overview in Windows XP \par
+322756: How to Back Up, Edit, and Restore the Registry in Windows XP \par
+306084: How to Restore the Operating System to a Previous State in Windows XP \par
+304449: How to Start the System Restore Tool from a Command Prompt in Windows XP \par
+302700: An Error Message Is Displayed When You Attempt to Use the Automated System Recovery Wizard in Windows XP Home Edition \par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Find a Microsoft Knowledge Base article\par
+\pard\sb100\sa100\kerning0\b0\fs24 To find a Microsoft Knowledge Base article, go to {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?linkid=992"}}{\fldrslt{\cf1\ul Microsoft Help and Support}}}\cf0\ulnone\f0\fs24  (http://support.microsoft.com), type the article number in the \b Search the Knowledge Base\b0  box, and then press ENTER.\par
+\pard\keepn\sb100\sa100\kerning36\b\fs48 Additional resources\par
+\pard\sb100\sa100\kerning0\b0\fs24 Visit these Web sites for updates or late-breaking information about Windows XP.\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sb100\sa100 General information: {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=10087"}}{\fldrslt{\cf1\ul Microsoft Windows XP Web site}}}\cf0\ulnone\f0\fs24  (http://go.microsoft.com/fwlink/?LinkId=10087) \par
+{\pntext\f2\'B7\tab}Product updates and fixes online: {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=25683"}}{\fldrslt{\cf1\ul Microsoft Windows Update}}}\cf0\ulnone\f0\fs24  (http://go.microsoft.com/fwlink/?LinkId=25683) \par
+{\pntext\f2\'B7\tab}Products compatible with Windows XP: {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=6582"}}{\fldrslt{\cf1\ul Microsoft Windows Catalog}}}\cf0\ulnone\f0\fs24  (http://go.microsoft.com/fwlink/?LinkId=6582) \par
+{\pntext\f2\'B7\tab}Articles about product support issues: {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=4441"}}{\fldrslt{\cf1\ul Microsoft Knowledge Base}}}\cf0\ulnone\f0\fs24  (http://go.microsoft.com/fwlink/?LinkId=4441) \par
+{\pntext\f2\'B7\tab}Information about using a Tablet PC: {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=8676"}}{\fldrslt{\cf1\ul Microsoft Windows XP Tablet PC Edition Web Site}}}\cf0\ulnone\f0\fs24  (http://go.microsoft.com/fwlink/?LinkId=8676) \par
+{\pntext\f2\'B7\tab}SP2 information for consumers: {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=25086"}}{\fldrslt{\cf1\ul Microsoft Windows XP Service Pack 2 Web site for consumers}}}\cf0\ulnone\f0\fs24  (http://go.microsoft.com/fwlink/?LinkId=25086) \par
+{\pntext\f2\'B7\tab}SP2 information for IT professionals: {\field{\*\fldinst{HYPERLINK "http://go.microsoft.com/fwlink/?LinkId=25682"}}{\fldrslt{\cf1\ul Microsoft Windows XP Service Pack 2 Web site for information technology professionals}}}\cf0\ulnone\f0\fs24  (http://go.microsoft.com/fwlink/?LinkId=25682) \par
+\pard\sb100\sa100 Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place, or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation. \par
+Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.\par
+Copyright 2004 Microsoft Corporation. All rights reserved.\par
+Microsoft, MS-DOS, Windows, Windows 98, Windows 98 Second Edition, Windows NT, Windows Server 2003, Windows Millennium Edition, Windows 2000 Professional, Windows XP Home Edition, and Windows XP Professional are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.\par
+The names of actual companies and products mentioned herein may be the trademarks of their respective owners.\par
+\pard\f1\fs20\par
+\par
+\par
+}
+ 
